@@ -48,7 +48,7 @@ namespace CustomCollections
             }   
             else
             {
-                throw new OperationRejectedException("You can not add this number!"); 
+                throw new OperationRejectedException("You can not add this item!"); 
             }
         }
 
@@ -70,12 +70,12 @@ namespace CustomCollections
                 }
                 else
                 {
-                    throw new OperationRejectedException("You can not remove this number!");
+                    throw new OperationRejectedException("You can not remove this item!");
                 }
             }
             else
             {
-                throw new InvalidOperationException("This number is not on the list!");              
+                throw new InvalidOperationException("This item is not on the list!");              
             }          
         }
 
